@@ -21,14 +21,14 @@
         <module>route_fenceserver</module>
     </modules>
 
-    <name>order</name>
+    <name>route_fence</name>
 
     <packaging>pom</packaging>
 
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.RC1</spring-cloud.version>
-        <route_fense-common.version>0.0.1-SNAPSHOT</route_fense-common.version>
+        <route_fense-transfer.version>0.0.1-SNAPSHOT</route_fense-transfer.version>
         <product-client.version>0.0.1-SNAPSHOT</product-client.version>
     </properties>
 
@@ -51,8 +51,8 @@
 
             <dependency>
                 <groupId>com.carnet</groupId>
-                <artifactId>order-common</artifactId>
-                <version>${route_fence-common.version}</version>
+                <artifactId>route_fense-transfer</artifactId>
+                <version>${route_fense-transfer.version}</version>
             </dependency>
 
             <!--<dependency>-->
